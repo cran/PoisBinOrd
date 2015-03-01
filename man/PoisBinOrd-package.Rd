@@ -2,15 +2,15 @@
 \alias{PoisBinOrd-package}
 \alias{PoisBinOrd}
 \docType{package}
-\title{Data generation with count, binary and ordinal components}
+\title{Data Generation with Count, Binary and Ordinal Components}
 \description{Provides R functions for generation of multiple count, binary and ordinal variables simultaneously 
              given the marginal characteristics and association structure.}
 \details{
 \tabular{ll}{
 Package: \tab PoisBinOrd\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2015-02-03\cr
+Version: \tab 1.1\cr
+Date: \tab 2015-03-01\cr
 License: \tab GPL (>= 2) \cr
 }PoisBinOrd package consists of ten functions. The functions \code{\link{validation.bin}}, \code{\link{validation.ord}}, and
 \code{\link{validation.corr}} validate the specified quantities to avoid users from obvious specification errors. 
@@ -22,7 +22,8 @@ computes intermediate correlation matrix for Poisson-Poisson combinations, binar
 and Poisson and binary/ordinal combinations, respectively. The function \code{\link{overall.corr.mat}} assembles 
 the final correlation matrix. The engine function \code{\link{gen.PoisBinOrd}}
 generates mixed data in accordance with the specified marginal and correlational quantities.
-}
+Throughout the package, variables are supposed to be inputted in a certain order, namely, 
+first count variables, next binary variables, and then ordinal variables should be placed}
 
 \author{Gul Inan, Hakan Demirtas 
 

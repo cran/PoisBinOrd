@@ -42,7 +42,7 @@ prop.vec<-c(0.3)
 prop.list<-list(c(0.3,0.6))
 corr.mat=matrix(c(1,0.2,0.1,0.2,1,0.5,0.1,0.5,1),3,3)
 
-intmatP_BO=intermediate.corr.P_BO(n.P, n.B, n.O, lambda.vec, prop.vec, 
-prop.list, corr.vec = NULL, corr.mat)
+intmatP_BO=intermediate.corr.P_BO(n.P, n.B, n.O, lambda.vec, prop.vec, prop.list, 
+corr.vec = NULL, corr.mat)
 }
 }

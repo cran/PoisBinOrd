@@ -30,11 +30,13 @@ function(n.P, lambda.vec, corr.vec=NULL, corr.mat=NULL){
   avec=-(low.lim*upp.lim)/(low.lim+upp.lim)
   amat=diag(1,n.P)
   amat[upper.tri(amat)]=avec
-  amat[lower.tri(amat)]=avec
+  #amat[lower.tri(amat)]=avec
+  amat=amat+t(amat)
+  diag(amat)=1
 
   int.mat<-matrix(0,n.P,n.P)
   for(i  in 2:n.P){
-  for(j  in 1:(n.P-1)){
+  for(j  in 1:(i-1)){
   int.mat[j,i]<-log((cor.mat.P[j,i]+amat[j,i])/amat[j,i])/log((anymat[j,i]+amat[j,i])/amat[j,i])
   }
   }

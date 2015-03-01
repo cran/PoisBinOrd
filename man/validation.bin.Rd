@@ -22,11 +22,11 @@ validation.bin(n.B, prop.vec)
 
 \dontrun{
 n.B<-3
-validation.bin(n.B=n.B)
+validation.bin(n.B)
 
 n.B<-NULL
 prop.vec<-c(0.25,0.5,0.75)
-validation.bin(prop.vec=prop.vec)
+validation.bin(prop.vec)
 
 n.B<--3
 prop.vec<-c(0.25,0.5,0.75)
@@ -38,7 +38,7 @@ validation.bin(n.B, prop.vec)
 
 n.B<-5
 prop.vec<-c(0.25,0.5,0.75)
-validation.bin(n.B=5, prop.vec)
+validation.bin(n.B, prop.vec)
 
 n.B<-3
 prop.vec<-c(0.25,0.5,-0.75)

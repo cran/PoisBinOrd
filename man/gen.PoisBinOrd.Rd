@@ -6,7 +6,7 @@
 ordinal variables}
 
 \description{This function simulates a sample of size n from a set of multivariate Poisson, binary, and
-ordinal with pre-specified marginals and a correlation matrix.}
+ordinal data with pre-specified marginals and a correlation matrix.}
 
 \usage{gen.PoisBinOrd(n, n.P, n.B, n.O, lambda.vec = NULL, prop.vec = NULL, 
 prop.list = NULL, final.corr.mat)}
@@ -23,7 +23,9 @@ prop.list = NULL, final.corr.mat)}
 }
 
 
-\value{A matrix of generated data.}
+\value{A matrix of size n*(n.P + n.B + n.O), of which the first n.P 
+columns are Poisson variables, the next n.B columns are binary variables, and the last n.O 
+columns are ordinal variables.}
 
 \examples{
 \dontrun{
@@ -36,8 +38,8 @@ prop.vec<-runif(2)
 prop.list<-list(c(0.3,0.6,0.7),c(0.2,0.3,0.5))
 corr.mat=matrix(0.4,6,6)
 diag(corr.mat)=1
-final.corr.mat=overall.corr.mat(n.P, n.B, n.O, lambda.vec, prop.vec, 
-prop.list,corr.vec = NULL, corr.mat)
+final.corr.mat=overall.corr.mat(n.P, n.B, n.O, lambda.vec, prop.vec, prop.list, 
+corr.vec = NULL, corr.mat)
 mymixdata=gen.PoisBinOrd(n, n.P, n.B, n.O, lambda.vec, prop.vec, prop.list, 
 final.corr.mat)
 }
