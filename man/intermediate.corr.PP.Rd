@@ -19,7 +19,7 @@ as formulated in Amatya and Demirtas (2015).}
 \value{A correlation matrix of size n.P*n.P}
 
 \references{Amatya, A. and Demirtas, H. (2015). Simultaneous generation of multivariate mixed data with Poisson and normal
-marginals. Journal of Statistical Computation and Simulation. In press.
+marginals. Journal of Statistical Computation and Simulation, 85(15), 3129-3139.
 }
 
 \seealso{\code{\link{intermediate.corr.P_BO}}}
@@ -29,10 +29,10 @@ marginals. Journal of Statistical Computation and Simulation. In press.
 n.P<-3
 lambda.vec<-c(1,2,3)
 corr.mat<-matrix(c(1,0.352,0.265,0.352,1,0.121,0.265,0.121,1),n.P,n.P)
-intmatPP=intermediate.corr.PP(n.P, lambda.vec, corr.vec=NULL, corr.mat)
+intmatPP=intermediate.corr.PP(n.P,lambda.vec,corr.vec=NULL,corr.mat)
 
 \dontrun{
 #See also cmat.star in  R package PoisNor 
-#cmat.star(no.pois=3, no.norm=0, corMat=corr.mat, lamvec=lambda.vec)
+#cmat.star(no.pois=3,no.norm=0,corMat=corr.mat,lamvec=lambda.vec)
 }
 }

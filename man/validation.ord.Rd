@@ -20,7 +20,7 @@ k-1 probability values. The k-th element is implicitly 1.}
 \examples{
 n.O<-3
 prop.list<-list(c(0.3,0.6),c(0.25,0.5,0.75),c(0.1,0.2,0.8,0.9))
-validation.ord(n.O, prop.list)
+validation.ord(n.O,prop.list)
 
 \dontrun{
 n.O<-3
@@ -32,23 +32,23 @@ validation.ord(prop.list=prop.list)
 
 n.O<--3
 prop.list<-list(c(0.3,0.6),c(0.25,0.5,0.75),c(0.1,0.2,0.8,0.9))
-validation.ord(-3, prop.list)
+validation.ord(-3,prop.list)
 
 n.O<--0
 prop.list<-list(c(0.3,0.6),c(0.25,0.5,0.75),c(0.1,0.2,0.8,0.9))
-validation.ord(n.O, prop.list)
+validation.ord(n.O,prop.list)
 
 n.O<-5
 prop.list<-list(c(0.3,0.6),c(0.25,0.5,0.75),c(0.1,0.2,0.8,0.9))
-validation.ord(n.O, prop.list)
+validation.ord(n.O,prop.list)
 
 n.O<-3
 prop.list<-list(c(0.3,0.6),c(0.25,0.5,-0.75),c(0.1,0.2,0.8,1.5))
-validation.ord(n.O, prop.list)
+validation.ord(n.O,prop.list)
 
 n.O<-3
 prop.list<-list(0.3,c(0.3,0.4),c(0.4,0.2,0.3))
-validation.ord(n.O, prop.list)
+validation.ord(n.O,prop.list)
 }
 }
 

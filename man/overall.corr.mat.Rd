@@ -37,7 +37,7 @@ prop.vec<-c(0.3)
 prop.list<-list(c(0.3,0.6))
 corr.vec=NULL
 corr.mat=matrix(c(1,0.2,0.1,0.2,1,0.5,0.1,0.5,1),3,3)
-finalmat=overall.corr.mat(n.P, n.B, n.O, lambda.vec, prop.vec, prop.list, corr.vec = NULL, 
+finalmat=overall.corr.mat(n.P,n.B,n.O,lambda.vec,prop.vec,prop.list,corr.vec=NULL, 
 corr.mat)
 }
 }

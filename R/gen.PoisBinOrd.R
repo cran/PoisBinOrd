@@ -1,8 +1,5 @@
-###########################################################################################################################
-###Simulates a sample of size n from a set of multivariate Poisson, binary and ordinal variables.
-###########################################################################################################################
-
-gen.PoisBinOrd<-function(n, n.P, n.B, n.O, lambda.vec=NULL, prop.vec=NULL, prop.list=NULL, final.corr.mat){
+gen.PoisBinOrd <-
+function(n, n.P, n.B, n.O, lambda.vec=NULL, prop.vec=NULL, prop.list=NULL, final.corr.mat){
 
    if(missing(n)==TRUE)          stop("n was not specified! \n")
    if(missing(final.corr.mat))   stop("Final correlation matrix was not specified! \n")

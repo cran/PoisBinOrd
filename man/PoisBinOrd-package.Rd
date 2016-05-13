@@ -9,9 +9,9 @@
 \tabular{ll}{
 Package: \tab PoisBinOrd\cr
 Type: \tab Package\cr
-Version: \tab 1.1\cr
-Date: \tab 2015-03-01\cr
-License: \tab GPL (>= 2) \cr
+Version: \tab 1.2\cr
+Date: \tab 2016-05-13\cr
+License: \tab GPL-2 | GPL-3 \cr
 }PoisBinOrd package consists of ten functions. The functions \code{\link{validation.bin}}, \code{\link{validation.ord}}, and
 \code{\link{validation.corr}} validate the specified quantities to avoid users from obvious specification errors. 
 \code{\link{correlation.limits}} returns the lower and upper bounds of the pairwise correlation of Poisson-Poisson, Poisson-binary, Poisson-ordinal, binary-binary, binary-ordinal, and ordinal-ordinal combinations given their marginal distributions,
@@ -23,14 +23,14 @@ and Poisson and binary/ordinal combinations, respectively. The function \code{\l
 the final correlation matrix. The engine function \code{\link{gen.PoisBinOrd}}
 generates mixed data in accordance with the specified marginal and correlational quantities.
 Throughout the package, variables are supposed to be inputted in a certain order, namely, 
-first count variables, next binary variables, and then ordinal variables should be placed}
+first count variables, next binary variables, and then ordinal variables should be placed.}
 
 \author{Gul Inan, Hakan Demirtas 
 
-Maintainer: Gul Inan <ginan@metu.edu.tr>}
+Maintainer: Gul Inan <inanx002@umn.edu>}
 
 \references{Amatya, A. and Demirtas, H. (2015). Simultaneous generation of multivariate mixed data with Poisson and normal
-marginals. Journal of Statistical Computation and Simulation. In press.
+marginals. Journal of Statistical Computation and Simulation, (85)15, 3129-3139.
 
 Demirtas, H. and Hedeker, D. (2011). A practical way for computing approximate lower and upper
 correlation bounds. The American Statistician, 65(2), 104-109.

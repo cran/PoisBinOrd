@@ -48,35 +48,35 @@ prop.vec<-c(0.3,0.5)
 prop.list<-list(c(0.3,0.6),c(0.25,0.5,0.75),c(0.1,0.2,0.8,0.9))
 
 #Correlation limits among Poisson variables
-correlation.limits(n.P,n.B=0,n.O=0, lambda.vec,prop.vec=NULL, prop.list=NULL)
+correlation.limits(n.P,n.B=0,n.O=0,lambda.vec,prop.vec=NULL,prop.list=NULL)
 
 #See also Cor.PP.Limit in R package PoisNor 
 
 #Correlation limits among binary variables
-correlation.limits(n.P=0,n.B,n.O=0,lambda.vec=NULL, prop.vec, prop.list=NULL)
+correlation.limits(n.P=0,n.B,n.O=0,lambda.vec=NULL,prop.vec,prop.list=NULL)
 
 #See also correlation.limits in R package BinNonNor 
 
 #Correlation limits among ordinal variables
-correlation.limits(n.P=0,n.B=0,n.O,lambda.vec=NULL, prop.vec=NULL, prop.list)
+correlation.limits(n.P=0,n.B=0,n.O,lambda.vec=NULL,prop.vec=NULL,prop.list)
 
 #See also Limit_forOO in R package OrdNor 
 
 #Correlation limits among Poisson and binary variables and within themselves.
-correlation.limits(n.P,n.B,n.O=0,lambda.vec, prop.vec, prop.list=NULL)
+correlation.limits(n.P,n.B,n.O=0,lambda.vec,prop.vec,prop.list=NULL)
 
 #Correlation limits among Poisson and ordinal variables and within themselves.
-correlation.limits(n.P,n.B=0,n.O,lambda.vec, prop.vec=NULL, prop.list)
+correlation.limits(n.P,n.B=0,n.O,lambda.vec,prop.vec=NULL,prop.list)
 
 #Correlation limits among binary and ordinal variables and within themselves.
-correlation.limits(n.P=0,n.B,n.O,lambda.vec=NULL, prop.vec, prop.list)
+correlation.limits(n.P=0,n.B,n.O,lambda.vec=NULL,prop.vec,prop.list)
 
 #Correlation limits among Poisson, binary, and ordinal variables and within themselves.
-correlation.limits(n.P,n.B,n.O,lambda.vec, prop.vec, prop.list)
+correlation.limits(n.P,n.B,n.O,lambda.vec,prop.vec,prop.list)
 
 n.P<-2
 lambda.vec=c(-1,1)
-correlation.limits(n.P,n.B=0,n.O=0, lambda.vec,prop.vec=NULL, prop.list=NULL)
+correlation.limits(n.P,n.B=0,n.O=0,lambda.vec,prop.vec=NULL,prop.list=NULL)
 }
 }
 

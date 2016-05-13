@@ -38,9 +38,9 @@ prop.vec<-runif(2)
 prop.list<-list(c(0.3,0.6,0.7),c(0.2,0.3,0.5))
 corr.mat=matrix(0.4,6,6)
 diag(corr.mat)=1
-final.corr.mat=overall.corr.mat(n.P, n.B, n.O, lambda.vec, prop.vec, prop.list, 
-corr.vec = NULL, corr.mat)
-mymixdata=gen.PoisBinOrd(n, n.P, n.B, n.O, lambda.vec, prop.vec, prop.list, 
+final.corr.mat=overall.corr.mat(n.P,n.B,n.O,lambda.vec,prop.vec,
+prop.list,corr.vec=NULL,corr.mat)
+mymixdata=gen.PoisBinOrd(n,n.P,n.B,n.O,lambda.vec,prop.vec,prop.list, 
 final.corr.mat)
 }
 }

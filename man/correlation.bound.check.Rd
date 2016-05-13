@@ -42,7 +42,8 @@ lambda.vec<-c(1)
 prop.vec<-c(0.3)
 prop.list<-list(c(0.3,0.6))
 corr.mat=matrix(c(1,0.2,0.1,0.2,1,0.5,0.1,0.5,1),3,3)
-correlation.bound.check(n.P, n.B, n.O, lambda.vec, prop.vec, prop.list,corr.vec=NULL, corr.mat)
+correlation.bound.check(n.P,n.B,n.O,lambda.vec,prop.vec,prop.list,corr.vec=NULL,
+corr.mat)
 
 n.P<-2
 n.B<-2
@@ -52,6 +53,7 @@ prop.vec<-c(0.3,0.5)
 prop.list<-list(c(0.3,0.6),c(0.5,0.6))
 corr.mat=matrix(0.8,6,6)
 diag(corr.mat)=1
-correlation.bound.check(n.P, n.B, n.O, lambda.vec, prop.vec, prop.list,corr.vec=NULL, corr.mat)
+correlation.bound.check(n.P,n.B,n.O,lambda.vec,prop.vec,prop.list,corr.vec=NULL,
+corr.mat)
 }
 }

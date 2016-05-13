@@ -1,3 +1,6 @@
 exportPattern("^[[:alpha:]]+")
 
 import(corpcor, GenOrd, Matrix, mvtnorm)
+
+importFrom("stats","cor","pnorm","qnorm","qpois","rbinom",
+"rnorm","rpois","runif","uniroot")
