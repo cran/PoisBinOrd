@@ -9,8 +9,8 @@
 \tabular{ll}{
 Package: \tab PoisBinOrd\cr
 Type: \tab Package\cr
-Version: \tab 1.2\cr
-Date: \tab 2016-05-13\cr
+Version: \tab 1.3\cr
+Date: \tab 2018-01-02\cr
 License: \tab GPL-2 | GPL-3 \cr
 }PoisBinOrd package consists of ten functions. The functions \code{\link{validation.bin}}, \code{\link{validation.ord}}, and
 \code{\link{validation.corr}} validate the specified quantities to avoid users from obvious specification errors. 
@@ -27,7 +27,7 @@ first count variables, next binary variables, and then ordinal variables should 
 
 \author{Gul Inan, Hakan Demirtas 
 
-Maintainer: Gul Inan <inanx002@umn.edu>}
+Maintainer: Gul Inan <ginan@metu.edu.tr>}
 
 \references{Amatya, A. and Demirtas, H. (2015). Simultaneous generation of multivariate mixed data with Poisson and normal
 marginals. Journal of Statistical Computation and Simulation, (85)15, 3129-3139.

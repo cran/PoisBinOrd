@@ -1,4 +1,4 @@
-02ef595a534de0ddaea007ccb3b044d9 *DESCRIPTION
+62ff8bc47be3894737f66a8248857402 *DESCRIPTION
 4fc4bdb8405e6e5b236bff9872c2ed17 *NAMESPACE
 d23636eb7839ac1151477f1552e842b6 *R/correlation.bound.check.R
 d9df65e8e48da1798037869b61e5074c *R/correlation.limits.R
@@ -10,7 +10,7 @@ c10bbb6c608b21599e6be227fa87fa83 *R/intermediate.corr.BO.R
 589b500dc5a3231b94dac31c6f8fe5bd *R/validation.bin.R
 a6fe7fc93390804215e50cd8f5264b93 *R/validation.corr.R
 c5ecd6b191d3d80504f86e41d6667213 *R/validation.ord.R
-d4f7dd6a85f8a583309844369b0f00b2 *man/PoisBinOrd-package.Rd
+c057ffea160b2394066ca8cc54beed8c *man/PoisBinOrd-package.Rd
 e2197cb3d73ed10ca0aa3fcb5af52b9b *man/correlation.bound.check.Rd
 4efd08bb83a590815aa9c6af4c003164 *man/correlation.limits.Rd
 389ce1ba51964626d104909e9e678970 *man/gen.PoisBinOrd.Rd
