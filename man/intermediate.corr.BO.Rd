@@ -28,7 +28,7 @@ Barberio, A. and Ferrari, P.A. (2015). GenOrd: Simulation of ordinal and discret
 http://www.cran.r-project.org/web/packages/GenOrd.
 }
 
-\seealso{\code{\link{intermediate.corr.P_BO}}}
+\seealso{\code{\link{intermediate.corr.PBO}}}
 
 \examples{
 \dontrun{

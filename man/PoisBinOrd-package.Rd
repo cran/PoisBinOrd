@@ -9,15 +9,15 @@
 \tabular{ll}{
 Package: \tab PoisBinOrd\cr
 Type: \tab Package\cr
-Version: \tab 1.3\cr
-Date: \tab 2018-01-02\cr
+Version: \tab 1.4\cr
+Date: \tab 2019-03-03\cr
 License: \tab GPL-2 | GPL-3 \cr
 }PoisBinOrd package consists of ten functions. The functions \code{\link{validation.bin}}, \code{\link{validation.ord}}, and
 \code{\link{validation.corr}} validate the specified quantities to avoid users from obvious specification errors. 
 \code{\link{correlation.limits}} returns the lower and upper bounds of the pairwise correlation of Poisson-Poisson, Poisson-binary, Poisson-ordinal, binary-binary, binary-ordinal, and ordinal-ordinal combinations given their marginal distributions,
 i.e. returns the range of feasible pairwise correlations. The function \code{\link{correlation.bound.check}}
 checks the validity of the values of pairwise correlations. The functions \code{\link{intermediate.corr.PP}}, 
-\code{\link{intermediate.corr.BO}}, and  \code{\link{intermediate.corr.P_BO}} 
+\code{\link{intermediate.corr.BO}}, and  \code{\link{intermediate.corr.PBO}} 
 computes intermediate correlation matrix for Poisson-Poisson combinations, binary/ordinal and binary/ordinal combinations, 
 and Poisson and binary/ordinal combinations, respectively. The function \code{\link{overall.corr.mat}} assembles 
 the final correlation matrix. The engine function \code{\link{gen.PoisBinOrd}}
@@ -25,9 +25,9 @@ generates mixed data in accordance with the specified marginal and correlational
 Throughout the package, variables are supposed to be inputted in a certain order, namely, 
 first count variables, next binary variables, and then ordinal variables should be placed.}
 
-\author{Gul Inan, Hakan Demirtas 
+\author{Gul Inan, Hakan Demirtas, Ran Gao 
 
-Maintainer: Gul Inan <ginan@metu.edu.tr>}
+Maintainer: Ran Gao <rgao8@uic.edu>}
 
 \references{Amatya, A. and Demirtas, H. (2015). Simultaneous generation of multivariate mixed data with Poisson and normal
 marginals. Journal of Statistical Computation and Simulation, (85)15, 3129-3139.

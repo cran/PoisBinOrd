@@ -13,7 +13,7 @@ prop.list = NULL, corr.vec = NULL, corr.mat = NULL)}
   \item{n.P}{Number of Poisson variables.}
   \item{n.B}{Number of binary variables.}
   \item{n.O}{Number of ordinal variables.}
-  \item{lambda.vec}{Rate vector for Poisson variables}
+  \item{lambda.vec}{Rate vector for Poisson variables.}
   \item{prop.vec}{Probability vector for binary variables.}
   \item{prop.list}{A list of probability vectors for ordinal variables.}
   \item{corr.vec}{Vector of elements below the diagonal of correlation matrix ordered column-wise.}

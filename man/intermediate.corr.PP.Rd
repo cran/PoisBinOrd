@@ -10,8 +10,8 @@ as formulated in Amatya and Demirtas (2015).}
 \usage{intermediate.corr.PP(n.P, lambda.vec, corr.vec = NULL, corr.mat = NULL)}
 
 \arguments{
- \item{n.P}{Number of Poisson variables}
- \item{lambda.vec}{Rate vector for Poisson variables}
+ \item{n.P}{Number of Poisson variables.}
+ \item{lambda.vec}{Rate vector for Poisson variables.}
  \item{corr.vec}{Vector of elements below the diagonal of correlation matrix ordered column-wise.}
  \item{corr.mat}{Specified correlation matrix.}
 }
@@ -22,7 +22,7 @@ as formulated in Amatya and Demirtas (2015).}
 marginals. Journal of Statistical Computation and Simulation, 85(15), 3129-3139.
 }
 
-\seealso{\code{\link{intermediate.corr.P_BO}}}
+\seealso{\code{\link{intermediate.corr.PBO}}}
 
 
 \examples{
