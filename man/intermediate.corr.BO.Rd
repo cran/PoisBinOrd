@@ -5,7 +5,7 @@
 \title{Computes an intermediate normal correlation matrix for any combination of binary and ordinal variables given the specified correlation matrix}
 
 \description{Computes an intermediate normal correlation matrix for any combination of binary and ordinal variables before dichotomization/ordinalization 
-given the specified correlation matrix as formulated in Ferrari and Barberio (2012).}
+given the specified correlation matrix as formulated in Ferrari and Barbiero (2012).}
 
 \usage{intermediate.corr.BO(n.B, n.O, prop.vec = NULL, prop.list = NULL, corr.vec = NULL, 
 corr.mat = NULL)}
@@ -22,9 +22,9 @@ corr.mat = NULL)}
 \value{A correlation matrix of size (n.B+n.O)*(n.B+n.O).}
 
 \references{
-Ferrari, P.A. and Barberio, A. (2012). Simulating ordinal data. Multivariate Behavioral Research, 47(4), 566-589.
+Ferrari, P.A. and Barbiero, A. (2012). Simulating ordinal data. Multivariate Behavioral Research, 47(4), 566-589.
 
-Barberio, A. and Ferrari, P.A. (2015). GenOrd: Simulation of ordinal and discrete variables with given correlation matrix and marginal distributions.
+Barbiero, A. and Ferrari, P.A. (2015). GenOrd: Simulation of ordinal and discrete variables with given correlation matrix and marginal distributions.
 http://www.cran.r-project.org/web/packages/GenOrd.
 }
 

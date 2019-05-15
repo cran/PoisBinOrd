@@ -9,11 +9,11 @@
 \tabular{ll}{
 Package: \tab PoisBinOrd\cr
 Type: \tab Package\cr
-Version: \tab 1.4\cr
-Date: \tab 2019-03-03\cr
+Version: \tab 1.4.1\cr
+Date: \tab 2019-05-15\cr
 License: \tab GPL-2 | GPL-3 \cr
 }PoisBinOrd package consists of ten functions. The functions \code{\link{validation.bin}}, \code{\link{validation.ord}}, and
-\code{\link{validation.corr}} validate the specified quantities to avoid users from obvious specification errors. 
+\code{\link{validation.corr}} validate the specified quantities to prevent users from committing obvious specification errors. 
 \code{\link{correlation.limits}} returns the lower and upper bounds of the pairwise correlation of Poisson-Poisson, Poisson-binary, Poisson-ordinal, binary-binary, binary-ordinal, and ordinal-ordinal combinations given their marginal distributions,
 i.e. returns the range of feasible pairwise correlations. The function \code{\link{correlation.bound.check}}
 checks the validity of the values of pairwise correlations. The functions \code{\link{intermediate.corr.PP}}, 
@@ -38,7 +38,7 @@ correlation bounds. The American Statistician, 65(2), 104-109.
 Demirtas, H., Hedeker, D., and Mermelstein, R.J. (2012). Simulation of massive public health data
 by power polynomials. Statistics in Medicine, 31(27), 3337-3346.
 
-Ferrari, P.A. and Barberio, A. (2012). Simulating ordinal data. Multivariate Behavioral Research, 47(4), 566-589.
+Ferrari, P.A. and Barbiero, A. (2012). Simulating ordinal data. Multivariate Behavioral Research, 47(4), 566-589.
 }
 
 \keyword{concurrent generation of Poisson, binary and ordinal variables}
