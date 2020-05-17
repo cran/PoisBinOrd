@@ -9,8 +9,8 @@
 \tabular{ll}{
 Package: \tab PoisBinOrd\cr
 Type: \tab Package\cr
-Version: \tab 1.4.1\cr
-Date: \tab 2019-05-15\cr
+Version: \tab 1.4.2\cr
+Date: \tab 2020-05-02\cr
 License: \tab GPL-2 | GPL-3 \cr
 }PoisBinOrd package consists of ten functions. The functions \code{\link{validation.bin}}, \code{\link{validation.ord}}, and
 \code{\link{validation.corr}} validate the specified quantities to prevent users from committing obvious specification errors. 
@@ -41,8 +41,4 @@ by power polynomials. Statistics in Medicine, 31(27), 3337-3346.
 Ferrari, P.A. and Barbiero, A. (2012). Simulating ordinal data. Multivariate Behavioral Research, 47(4), 566-589.
 }
 
-\keyword{concurrent generation of Poisson, binary and ordinal variables}
-\keyword{generating multivariate Poisson variables}
-\keyword{generating multivariate binary variables}
-\keyword{generating multivariate ordinal variables}
 
