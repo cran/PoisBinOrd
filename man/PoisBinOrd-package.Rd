@@ -9,8 +9,8 @@
 \tabular{ll}{
 Package: \tab PoisBinOrd\cr
 Type: \tab Package\cr
-Version: \tab 1.4.2\cr
-Date: \tab 2020-05-02\cr
+Version: \tab 1.4.3\cr
+Date: \tab 2021-03-21\cr
 License: \tab GPL-2 | GPL-3 \cr
 }PoisBinOrd package consists of ten functions. The functions \code{\link{validation.bin}}, \code{\link{validation.ord}}, and
 \code{\link{validation.corr}} validate the specified quantities to prevent users from committing obvious specification errors. 

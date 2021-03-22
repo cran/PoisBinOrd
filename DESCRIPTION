@@ -1,8 +1,8 @@
 Package: PoisBinOrd
 Type: Package
 Title: Data Generation with Poisson, Binary and Ordinal Components
-Version: 1.4.2
-Date: 2020-05-02
+Version: 1.4.3
+Date: 2021-03-21
 Author: Gul Inan, Hakan Demirtas, Ran Gao
 Maintainer: Ran Gao <rgao8@uic.edu>
 Description: Generation of multiple count, binary and ordinal variables simultaneously 
@@ -11,6 +11,6 @@ Description: Generation of multiple count, binary and ordinal variables simultan
 License: GPL-2 | GPL-3
 Depends: corpcor, GenOrd, Matrix, mvtnorm
 NeedsCompilation: no
-Packaged: 2020-05-17 18:40:24 UTC; rangao
+Packaged: 2021-03-22 02:04:20 UTC; rangao
 Repository: CRAN
-Date/Publication: 2020-05-17 22:40:02 UTC
+Date/Publication: 2021-03-22 05:30:02 UTC
